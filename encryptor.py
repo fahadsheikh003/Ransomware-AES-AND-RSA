@@ -15,7 +15,7 @@ class Encryptor:
         # file types that the code will check for encryption
         self.file_types = ['.pdf', '.doc', '.txt']
 
-        # generating AES symmetric key
+        # generating 256 bit AES symmetric key
         self.session_key = get_random_bytes(32)
 
     # to encrypt AES symmetric key with RSA public key
