@@ -29,9 +29,9 @@ class Decryptor:
             with open(file, "wb") as f:
                 f.write(plaintext)
             rename(file, file[:-4]) # renaming file (to avaid re-decryption)
-            print(file, "decrypted")
+            print(file[:-4], "decrypted")
         except:
-            print(file, "not decrypted")
+            print(file[:-4], "not decrypted")
 
     def decrypt_files(self, directory: str):
         # finding all the files in the directory recursively
