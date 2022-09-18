@@ -1,5 +1,5 @@
 # Ransomware-AES-AND-RSA
-
+# Uses EAX mode
 # This ransomware is implemented using pycryptodome module
 
 **Hierarchy**
