@@ -1,4 +1,3 @@
-from ctypes import sizeof
 from os import walk, rename
 from os.path import join, exists
 from Crypto.PublicKey import RSA
